@@ -12,8 +12,7 @@
     font-size: 1.25rem;
     height: 25px;
     margin-top: 10px;
-    padding: 10px;
-    text-align: center;
+    align-items: center;
     
 }
  
@@ -24,7 +23,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    width: 80%;
+    margin: 0 140px;
 }
 /* nav school bag and text style */
 .school{
@@ -78,18 +77,12 @@ nav div ul li a{
     gap: 10px;
 
 }
-.menu{
- display: none; 
- margin-right: 19px;      
-}
-
 /* hero section style */
 .hero-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
-    margin: 0 auto;
+    margin: 0 140px;
 }
 .hero-header{
     font-weight: bold;
@@ -113,6 +106,25 @@ nav div ul li a{
     font-size: 1.25rem;
 
 }
+/* card style */
+.Standard-Curriculum{
+   background-image: url(../assets/bg.png); 
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.curriculum-heading{
+    font-size: 2.87rem;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin:65px  auto;
+    
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 /* media style */
@@ -124,8 +136,17 @@ nav div ul li a{
         display: none;
     }
     
-    .menu{
+    /* .menu{ 
         display: block;
-    }
-   
+    } */
+   .hero-container{
+    flex-direction: column-reverse;
+   }
+   nav{
+    background-image: url(../assets/menu.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 10px;
+   }
 }
+
