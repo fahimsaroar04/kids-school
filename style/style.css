@@ -352,6 +352,18 @@ footer div div div{
     gap: 10px;
     margin-top: 32px;
 }
+.page-btn{
+    border-radius: 55%;
+    border: none;
+    background-color: #FEA301;
+    margin: 10px;
+    padding: 17px 22px;
+}
+.page-btn:hover{
+    background-color: #755010; /* Change color on hover */
+    transform: scale(1.05);
+
+}
 
 /* media style */
 @media screen and (max-width: 460px) {
@@ -401,6 +413,9 @@ footer div div div{
    }
    .footer-container{
     margin: 0px 10px;
+   }
+   footer div div p{
+    margin-bottom: 20px;
    }
 
 }
