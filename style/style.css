@@ -354,7 +354,7 @@ footer div div div{
 }
 
 /* media style */
-@media screen and (max-width: 569px) {
+@media screen and (max-width: 460px) {
     .nav-list{
         visibility: hidden;
     }
@@ -385,5 +385,23 @@ footer div div div{
    .card{
     width: 100%;
    }
+   .box-img1{
+    display: none;
+
+   }
+   .img-card-container{
+    grid-template-columns: repeat(2,1fr);
+    margin: 6px;
+   }
+   .story{
+    width: 100%;
+   }
+   .footer-container{
+    flex-direction: column;
+   }
+   .footer-container{
+    margin: 0px 10px;
+   }
+
 }
 
