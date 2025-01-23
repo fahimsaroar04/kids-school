@@ -374,5 +374,16 @@ footer div div div{
     background-position: right;
     margin: 10px;
    }
+   .card-container{
+    flex-direction: column;
+    margin-left: 16px;
+    margin-right: 16px;
+    justify-content: center;
+    justify-items: center;
+    
+   }
+   .card{
+    width: 100%;
+   }
 }
 
