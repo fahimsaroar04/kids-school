@@ -374,9 +374,7 @@ footer div div div{
         display: none;
     }
     
-    /* .menu{ 
-        display: block;
-    } */
+    
    .hero-container{
     flex-direction: column-reverse;
    }
